@@ -47,15 +47,13 @@ body
 	border-bottom: 4px solid #4F82C3;
 }
 
-#fixheader .progress-container
-{
-	width: 100%;
-	background-color: green;
-	height: 8px;
-	float:right;
+p{
+	margin: 0px;
 }
 
-
-p{
-	margin-top: 50px;
+.homebackground
+{
+	background-image: url("../img/Modular_kitchen.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
