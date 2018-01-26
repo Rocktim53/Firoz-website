@@ -1,7 +1,7 @@
 body
 {
 	margin: 0px;
-	font-size: 24px;
+	font-size: 25px;
 	font-family: serif,Arial, verdana;
 }
 
@@ -14,6 +14,7 @@ body
 	width: 100%;
 	top:-45px;
 	transition: top 0.5s;
+	z-index: 9999;
 }
 
 #fixheader ul
@@ -53,7 +54,58 @@ p{
 
 .homebackground
 {
+	height: 200%;
 	background-image: url("../img/Modular_kitchen.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
+	color: white;
+}
+
+.homebackground h2
+{
+	font-family: helvetica;
+	margin: 0px;
+	letter-spacing: 4px;
+}
+
+.homebackground .home
+{
+	height: 340px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color:rgba(59, 64, 62,0.4);
+	text-align: center;
+	padding-top: 5%;
+}
+
+.homebackground .home div
+{
+	padding-top: 70px;
+}
+
+.homebackground .home div span
+{
+	border: 3px solid black;
+	background-color:rgba(59, 64, 62,0.7);
+	box-shadow: 0px 7px 5px rgba(0,0,0, 0.9);
+	padding: 8px;
+}
+
+.homebackground .home .arrows
+{
+	padding-top: 20px;
+}
+
+.homebackground .home .arrows p
+{
+	font-size: 75px;
+	transform: rotate(-90deg);
+}
+
+.homebackground .about
+{
+	height: 400px;
+	margin-top:15px;
+	width: 100%;
+	background-color:rgba(227, 227, 227,0.4);
 }
