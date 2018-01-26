@@ -13,7 +13,7 @@ body
 	position: fixed;
 	width: 100%;
 	top:-45px;
-	transition: top 0.03s;
+	transition: top 0.5s;
 }
 
 #fixheader ul
@@ -44,15 +44,18 @@ body
 #fixheader ul li:hover
 {
 	background-color: #FF0000;
-	border-bottom: 6px solid #4CAF50;
+	border-bottom: 4px solid #4F82C3;
+}
+
+#fixheader .progress-container
+{
+	width: 100%;
+	background-color: green;
+	height: 8px;
+	float:right;
 }
 
 
 p{
 	margin-top: 50px;
-}
-
-.fixscroll
-{
-
 }
