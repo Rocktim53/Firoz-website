@@ -188,7 +188,100 @@ p{
 	/*display:inline-block;*/
 }
 
+/* ------------   gallery   --------------------*/
 
+.gallery 
+{
+	width: 100%;
+	background-color: rgba(227, 227, 227, 0.5);
+	padding-bottom: 20px;
+	height: 750px;
+	overflow:hidden;
+	position: relative;
+}
+
+.gallery h2
+{
+	color: #0e76bc;
+	text-align: center;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+
+/*------------------  Slide ----------------------*/
+.gallery .slideshow
+{
+	width: 400%;
+	padding-top: 20px;
+	/*height: 650px;*/
+	overflow:hidden;
+
+}
+
+.gallery .slideshow .slideimg
+{
+  
+  width: 25%;
+  float: left;
+  position: relative;
+  
+}
+
+.gallery .slideshow .slideimg img
+{
+   width: 86%;
+   height: 650px;
+   padding: 2px 7%;
+}
+
+.gallery .slideshow .text
+{
+	font-family: cursive, monospace, 'Lucida Console', Monaco;
+	font-size: 34px;
+	position: absolute;
+	bottom: 30px;
+	left: 42%;
+	color: #f2f2f2;
+	text-shadow: 2px 2px 2px black;
+}
+
+.next, .prev
+{
+	position: absolute;
+	top: 50%;
+	color: black;
+	font-size: 48px;
+
+}
+
+.next
+{
+	right: 3%;
+}
+
+.prev
+{
+	left: 3%;
+}
+
+.dash
+{
+	text-align: center;
+}
+
+.dash .dots
+{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	display:inline-block;
+	cursor: pointer;
+	margin: 4px;
+	background-color: #bbb;
+	transition: background-color 0.6s ease;
+}
 
 
 
