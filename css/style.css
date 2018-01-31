@@ -195,8 +195,9 @@ p{
 	width: 100%;
 	background-color: rgba(227, 227, 227, 0.5);
 	padding-bottom: 20px;
-	height: 770px;
+	height: 780px;
 	position: relative;
+	overflow: hidden;
 }
 
 .gallery h2
@@ -229,14 +230,12 @@ p{
   from
   {
     opacity: 0.2;
-    position: relative;
     left: 100%;
     width:0%;
   }
   to
   {
     opacity: 1;
-    position: relative;
     width:100%;
     left:0%;
   }
@@ -307,7 +306,95 @@ p{
   background-color: #717171;
 }
 
+.contact
+{
+	padding-top: 20px;
+	width: 100%;
+	height: 440px;
+	background-color: rgba(227, 227, 227, 0.5);
+	padding-bottom: 20px;
+}
 
+.contact h2
+{
+	color: #0e76bc;
+	text-align: center;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+.contact .leftbox
+{
+	float: left;
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+.contact .leftbox p
+{
+	line-height: 50px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.contact .leftbox .fa
+{
+	font-size: 20px;
+}
+
+.contact .rightbox
+{
+	float: right;
+	margin-right: 10%;
+	margin-top: 40px;
+	width: 45%;
+	box-sizing: border-box;
+}
+
+.contact .rightbox .name
+{
+	width: 47%;
+	font-size: 18px;
+	padding: 4px;
+}
+
+.contact .rightbox .emailid
+{
+	width: 47%;
+	font-size: 18px;
+	padding: 4px;
+}
+
+.contact .rightbox .phoneno
+{
+	margin-top: 15px;
+	width: 47%;
+	font-size: 18px;
+	padding: 4px;
+}
+
+.contact .rightbox .message
+{
+	margin-top: 15px;
+	width: 97%;
+	font-size: 18px;
+	height: 150px;
+	padding: 4px;
+	resize: none;
+}
+
+
+.contact .rightbox .sendrequest
+{
+	margin-top: 15px;
+	float: right;
+	margin-right: 2%;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(14, 118, 188);
+	padding: 4px;
+	border: none;
+}
 
 /* ============ screen resolution less than 1024px ============== */
 @media only screen and (max-width: 1280px){
