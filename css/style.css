@@ -195,8 +195,7 @@ p{
 	width: 100%;
 	background-color: rgba(227, 227, 227, 0.5);
 	padding-bottom: 20px;
-	height: 750px;
-	overflow:hidden;
+	height: 770px;
 	position: relative;
 }
 
@@ -212,26 +211,41 @@ p{
 /*------------------  Slide ----------------------*/
 .gallery .slideshow
 {
-	width: 400%;
+	width: 100%;
 	padding-top: 20px;
-	/*height: 650px;*/
-	overflow:hidden;
 
 }
 
 .gallery .slideshow .slideimg
 {
   
-  width: 25%;
-  float: left;
   position: relative;
-  
+  display: none;
+  animation: 1s fade;
+}
+
+@keyframes fade
+{
+  from
+  {
+    opacity: 0.2;
+    position: relative;
+    left: 100%;
+    width:0%;
+  }
+  to
+  {
+    opacity: 1;
+    position: relative;
+    width:100%;
+    left:0%;
+  }
 }
 
 .gallery .slideshow .slideimg img
 {
    width: 86%;
-   height: 650px;
+   height: 680px;
    padding: 2px 7%;
 }
 
@@ -249,9 +263,10 @@ p{
 .next, .prev
 {
 	position: absolute;
-	top: 50%;
+	top: 48%;
 	color: black;
-	font-size: 48px;
+	font-size: 50px;
+	cursor: pointer;
 
 }
 
@@ -264,6 +279,11 @@ p{
 {
 	left: 3%;
 }
+
+.prev:hover, .next:hover {
+ background-color: rgba(14, 118, 188, 0.5);
+}
+
 
 .dash
 {
@@ -283,6 +303,9 @@ p{
 	transition: background-color 0.6s ease;
 }
 
+.gallery .dash .active, .dots:hover {
+  background-color: #717171;
+}
 
 
 
