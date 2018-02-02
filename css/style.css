@@ -396,6 +396,52 @@ p{
 	border: none;
 }
 
+/*------------- Direction map ----------------------*/
+.direction
+{
+	padding-top: 10px;
+	width: 100%;
+	height: 480px;
+	background-color: rgba(227, 227, 227, 0.5);
+	padding-bottom: 10px;
+}
+
+.direction h2
+{
+	color: #0e76bc;
+	text-align: center;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+
+.direction #map
+{
+	margin-top: 15px;
+	width: 100%;
+	height: 400px;
+}
+
+/*------------ Footer ------------------*/
+
+.footer
+{
+	margin-top: 10px;
+	background-color: #333333;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.footer
+{
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	font-family: verdana;
+}
+
 /* ============ screen resolution less than 1024px ============== */
 @media only screen and (max-width: 1280px){
   

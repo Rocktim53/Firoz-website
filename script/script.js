@@ -57,3 +57,17 @@ function showSlides(n)
     	 click=0;
 
 }
+
+function initMap()
+{
+	var location={lat:26.756239,lng: 94.215883};
+	var map=new google.maps.Map(document.getElementById("map"),{
+		zoom: 15,
+		center: location
+	});
+
+	var marker = new google.maps.Marker({
+		position: location,
+		map: map
+	});
+}
