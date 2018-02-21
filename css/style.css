@@ -45,12 +45,12 @@ body
 #fixheader ul li:hover
 {
 	background-color: #FF0000;
-	border-bottom: 4px solid #4F82C3;
 }
 
 p{
 	margin: 0px;
 }
+
 
 .homebackground
 {
@@ -83,6 +83,7 @@ p{
 	padding-top: 40px;
 }
 
+
 .homebackground .home div span
 {
 	border: 3px solid black;
@@ -96,11 +97,7 @@ p{
 	padding-top: 15px;
 }
 
-.homebackground .home .arrows p
-{
-	font-size: 75px;
-	transform: rotate(-90deg);
-}
+
 
 .homebackground .about
 {
