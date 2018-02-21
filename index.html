@@ -123,13 +123,14 @@
 		</div>
 
 		<div class="rightbox">
-			<form action="" method="POST">
-				<input type="text" placeholder="First Name" class="name" required>
-				<input type="text" placeholder="Second Name" class="name" required>
+			<form action="submit.php" method="POST">
+				<input type="text" placeholder="First Name" class="name"
+				name="fname" required>
+				<input type="text" placeholder="Second Name" class="name" name="sname" required>
 				<br>
-				<input type="email" placeholder="Email" class="emailid" required>
-				<input type="number" placeholder="Phone Number" class="phoneno" required>
-				<textarea class="message" placeholder="Message" required></textarea>
+				<input type="email" placeholder="Email" class="emailid" name="emailID" required>
+				<input type="number" placeholder="Phone Number" class="phoneno" name="phn" required>
+				<textarea class="message" placeholder="Message" name="message" required></textarea>
 
 				<button type="submit" class="sendrequest">Send Message</button>
 			</form>
